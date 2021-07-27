@@ -29,14 +29,14 @@ scissors = '''
 '''
 rps = [rock, paper, scissors]
 
-os.system('clear') or None #clear console
+os.system('cls') #clear console
 print("\t\tWelcome to Rock-Paper-Scissors game!\n ")
 #User's choice 
 user_choice = int( input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. ") )
 #Computer's random choice
 computer_choice = random.randint(0, 2)
 
-os.system('clear') or None #clear console
+os.system('cls') #clear console
 #User chooses rock
 if user_choice == 0:
 
